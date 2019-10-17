@@ -15,7 +15,13 @@ body {
   width: 300px;
   height: 100%;
   border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
+  border-color: black;
+  background: gray;
+  color: white;
+}
+
+.listNavigation{
+  color: black;
 }
 
 header {
@@ -39,7 +45,7 @@ header {
 }
 
 #navbar li {
-  color: #4d4e53;
+  color: white;
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -49,7 +55,7 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
@@ -125,4 +131,16 @@ code {
     padding-right: 45px;
     min-width: 233px;
   }
+}
+
+.images {
+  width: 50%;
+  height: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
